@@ -88,6 +88,18 @@ strong{
   line-height: 1.3;
 }
 
+.brand img{
+  position: relative;
+  top: .35rem;
+  display: inline-block;
+  width: auto;
+  height: 3rem;
+}
+
+.brand .brand-text{
+  display: inline-block;
+}
+
 .brand small{
   display: block;
   color: #CFE5EA;
