@@ -234,8 +234,14 @@ strong{
 }
 
 .resources-previews h3{
-  width: calc(40% - 2rem);
+  width: calc(50% - 2rem);
   margin-right: 2rem;
+}
+
+@media screen and (min-width: 912px){
+  .resources-previews h3{
+    width: calc(40% - 2rem);
+  }
 }
 
 .resources-previews p{
@@ -247,8 +253,6 @@ strong{
   margin-top: .5rem;
   font-size: .875rem;
 }
-
-
 
 .partners-section{
   background-color: #CFE5EA;
